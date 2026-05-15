@@ -29,9 +29,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Шаг 4: Устанавливаем системные библиотеки и браузер Chromium для Playwright
+
+      # Шаг 4: Устанавливаем системные библиотеки и браузер Chromium через Python-утилиту Playwright
       - name: Install Playwright Browsers
-        run: npx playwright install chromium --with-deps
+        run: playwright install chromium --with-deps
+
 
       # Шаг 5: Запускаем тесты в фоновом (headless) режиме
       # Переопределяем флаг --headed из pytest.ini, так как в CI нет монитора
