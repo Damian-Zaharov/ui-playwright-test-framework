@@ -1,0 +1,19 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Кэш Python и pytest
+__pycache__/
+.pytest_cache/
+.pytest/
+
+# Результаты Allure (они будут генерироваться в CI заново)
+allure-results/
+allure-report/
+
+# Локальный файл с сессией (куки)
+auth_state.json
+
+# Настройки PyCharm
+.idea/
