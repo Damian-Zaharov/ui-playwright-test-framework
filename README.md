@@ -7,6 +7,9 @@
 ![Allure](https://img.shields.io/badge/Allure-Reports-orange)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-black?logo=githubactions)
 ![License](https://img.shields.io/badge/License-MIT-purple)
+
+
+
 [![Tests](https://github.com/damian-zaharov/ui-saucedemo-playwright-test-framework/actions/workflows/run_tests.yml/badge.svg)](https://damian-zaharov.github.io/ui-saucedemo-playwright-test-framework/)
 
 Профессиональный модульный фреймворк для автоматизации UI-тестирования веб-приложения Saucedemo. Построен на Python, Playwright и Pytest с использованием современных подходов к архитектуре тестов, параллельному запуску и CI/CD.
