@@ -10,7 +10,7 @@
 
 
 
-[![Tests](https://github.com/damian-zaharov/ui-saucedemo-playwright-test-framework/actions/workflows/run_tests.yml/badge.svg)](https://damian-zaharov.github.io/ui-saucedemo-playwright-test-framework/)
+[![Tests](https://github.com/damian-zaharov/ui-saucedemo-playwright-test-framework/actions/workflows/run_tests.yml/badge.svg)](https://damian-zaharov.github.io/ui-playwright-test-framework/)
 
 Модульный фреймворк для автоматизации UI-тестирования веб-приложения Saucedemo. Построен на Python, Playwright и Pytest с параллельным запуском и CI/CD.
 
